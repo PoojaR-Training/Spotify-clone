@@ -1,0 +1,40 @@
+.SideBar {
+    flex: 0.2;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 230px;
+    height: 100vh;
+    background-color: #040404;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    /* transition: 3.5s; */
+}
+.SideBar-active {
+    flex: 0.2;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 230px;
+    height: 100vh;
+    background-color: #040404;
+    /* transition: 3.5s; */
+}
+
+.sidebarLogo {
+    height: 60px;
+    padding: 10px;
+    margin-right: auto;
+    object-fit: contain;
+}
+.sidebar_title {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
+.SideBar > hr {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}

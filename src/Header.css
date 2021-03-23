@@ -1,0 +1,24 @@
+.header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.headerLarge {
+    display: flex;
+    justify-content: flex-end;
+}
+.header > img {
+    width: 30px;
+}
+
+.header_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+.header_right > h4 {
+    margin-left: 10px;
+}
