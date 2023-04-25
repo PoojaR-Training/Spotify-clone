@@ -5,10 +5,10 @@ import {useDataLayerValue} from './DataLayer';
 const SongRow = ({track, chooseTrack}) => {
     const [{user}, dispatch] = useDataLayerValue();
     const handle = () => {
-        if(user?.product==='open' || user?.product==='free') {
+       /* if(user?.product==='open' || user?.product==='free') {
             alert('You need to have a Spotify Premium Account for this action');
             return;
-        }
+        }*/
         chooseTrack(track);
     }
     return (
